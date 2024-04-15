@@ -71,7 +71,6 @@ public:
 	constexpr ArrayManagedUniquePtr& operator=(ArrayManagedUniquePtr&& mov) noexcept {
 		// Index remains the same when the pointer is moved
 		// this means that indices remain correct when a pointer is removed from an array
-		_index = mov._index;
 
 		delete _deleter;
 		delete data;
