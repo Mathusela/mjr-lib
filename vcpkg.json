@@ -1,0 +1,6 @@
+{
+	"name": "mjr-lib",
+	"version": "0.1.0",
+	"description": "General helper library providing common functionality for internal projects. Designed with similar principles to the STL.",
+	"homepage": "https://github.com/Mathusela/mjr-lib"
+}
